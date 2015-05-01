@@ -1,0 +1,76 @@
+.btn-outline {
+    color: #222;
+    background-color: transparent;
+    border-color: #222;
+}
+
+body {
+    padding: 5px 0;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.btn-join {
+    padding: 10px 20px;
+    min-width: 100px;
+}
+
+.btn-disable {
+    background-color: #ccc !important;
+}
+
+.avatar-span {
+    margin: 0 5px;
+}
+
+span.time, span.location {
+    display: block;
+    margin: 3px 0;
+    color: #777;
+}
+
+ul.activity-list {
+    border: 0;
+}
+
+ul.activity-item {
+    margin: 5px 0;
+}
+
+div.nav, div.copyright {
+  position: relative;
+  display: block;
+  padding: 20px 15px;
+  margin: 0 auto;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 0px solid #ddd;
+  max-width: 930px;
+  border-radius: 4px;
+  background-color: #eee;
+}
+
+div.copyright {
+    background-color: transparent;
+    color: #777;
+}
+
+a.back-home:link, a.back-home:visited,
+a.log-out:link, a.log-out:visited {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 32px;
+    color: #222;
+}
+
+a.back-home:hover, a.log-out:hover {
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 32px;
+    color: #777;
+}
+
+img.user-avatar {
+    margin-top: -16px;
+    margin-right: 30px;
+}
